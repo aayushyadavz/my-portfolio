@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "outfit", Arial, Helvetica, sans-serif;
+  }
+
+  @media (max-width: 768px) {
+    .gradient-bg {
+      background-color: rgba(25, 55, 109);
+      background: linear-gradient(0deg, rgba(25, 55, 109, 0.2) 0%, rgba(25, 55, 109, 1) 100%);
+    }
+  }
+}
