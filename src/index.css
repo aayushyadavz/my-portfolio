@@ -10,6 +10,10 @@
     font-family: "outfit", Arial, Helvetica, sans-serif;
   }
 
+  html {
+    scroll-behavior: smooth;
+  }
+
   .heroImage-animation {
     animation: floating 3s ease-in-out infinite;
   }
@@ -52,6 +56,20 @@
     background-color: rgba(25, 55, 109, 0.7);
     filter: blur(100px);
     z-index: 0;
+  }
+
+  .about-gradient {
+    background: linear-gradient(
+      90deg,
+      rgba(165, 215, 232, 0.42) 0%,
+      rgba(255, 255, 255, 0) 100%
+    );
+    background-size: 0 100%;
+    transition: 0.4s;
+  }
+
+  .about-gradient:hover {
+    background-size: 100% 100%;
   }
 
   @media (max-width: 768px) {

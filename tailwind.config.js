@@ -9,6 +9,7 @@ export default {
         colorSecondary: "#19376d",
         colorDark: "#0b2447",
         colorBg: "#04152d",
+        aboutBg: "rgba(12, 12, 12, 0.6)",
       },
       fontFamily: {
         outfit: ["Outfit", "sans-serif"],
@@ -18,6 +19,9 @@ export default {
         1: "1",
         2: "2",
         3: "3",
+      },
+      letterSpacing: {
+        custom: "1.74px",
       },
     },
   },
