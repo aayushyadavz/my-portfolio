@@ -3,3 +3,6 @@ export const HERO_IMG_URL =
 
 export const ABOUT_IMG_URL =
   "https://res.cloudinary.com/di0brh0qd/image/upload/f_auto,q_auto/v1735636358/my-image-two_dmo7ai.png";
+
+export const LOGO_URL =
+  "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/";

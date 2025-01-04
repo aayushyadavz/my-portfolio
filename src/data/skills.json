@@ -1,0 +1,34 @@
+[
+    {
+        "name": "HTML",
+        "imageSrc": "html5/html5-original.svg"
+    },
+    {
+        "name": "CSS",
+        "imageSrc": "css3/css3-original.svg"
+    },
+    {
+        "name": "Tailwind",
+        "imageSrc": "tailwindcss/tailwindcss-original.svg"
+    },
+    {
+        "name": "JavaScript",
+        "imageSrc": "javascript/javascript-original.svg"
+    },
+    {
+        "name": "React",
+        "imageSrc": "react/react-original.svg"
+    },
+    {
+        "name": "Redux",
+        "imageSrc": "redux/redux-original.svg"
+    },
+    {
+        "name": "Jest",
+        "imageSrc": "jest/jest-plain.svg"
+    },
+    {
+        "name": "Figma",
+        "imageSrc": "figma/figma-original.svg"
+    }
+]

@@ -21,7 +21,7 @@ export default {
         3: "3",
       },
       letterSpacing: {
-        custom: "1.74px",
+        custom: "1.75px",
       },
     },
   },
