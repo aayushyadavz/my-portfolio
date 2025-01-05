@@ -6,7 +6,7 @@ import Skills from "./components/Skills";
 
 function App() {
   return (
-    <div className="bg-colorBg h-full w-full">
+    <div className="bg-colorBg h-full w-full overflow-hidden">
       <Navbar />
       <Hero />
       <About />

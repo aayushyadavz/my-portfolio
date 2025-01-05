@@ -51,7 +51,7 @@
     min-width: 350px;
     min-width: 250px;
     top: 246px;
-    right: -9vw;
+    right: -25vw;
     border-radius: 764px;
     background-color: rgba(25, 55, 109, 0.7);
     filter: blur(100px);
@@ -70,6 +70,10 @@
 
   .about-gradient:hover {
     background-size: 100% 100%;
+  }
+
+  .project-gradient {
+    background: linear-gradient(180deg, #576cbc 0%, #132a53 100%);
   }
 
   @media (max-width: 768px) {
