@@ -12,7 +12,7 @@ const Contact = () => {
       </div>
       <ul className="flex flex-col items-center md:items-start gap-6">
         <li className="flex items-center gap-6">
-          <img src="../../assets/email-icon.png" alt="Email Icon" />
+          <img src="../../public/assets/email-icon.png" alt="Email Icon" />
           <a
             href="mailto:ayushyadav24nov1234@gmail.com"
             target="_blank"
@@ -22,7 +22,10 @@ const Contact = () => {
           </a>
         </li>
         <li className="flex items-center gap-6">
-          <img src="../../assets/linkedin-icon.png" alt="Linkedin Icon" />
+          <img
+            src="../../public/assets/linkedin-icon.png"
+            alt="Linkedin Icon"
+          />
           <a
             href="https://www.linkedin.com/in/aayushyadavz/"
             target="_blank"
@@ -32,7 +35,7 @@ const Contact = () => {
           </a>
         </li>
         <li className="flex items-center gap-6">
-          <img src="../../assets/github-icon.png" alt="Github Icon" />
+          <img src="../../public/assets/github-icon.png" alt="Github Icon" />
           <a
             href="https://github.com/aayushyadavz"
             target="_blank"
