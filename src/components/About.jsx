@@ -17,7 +17,7 @@ const About = () => {
         />
         <ul className="text-colorText flex flex-col gap-12 mt-7 md:mt-0">
           <li className="flex flex-row items-center rounded-[20px] px-0 py-6 md:p-6 about-gradient bg-no-repeat">
-            <img src="../../public/assets/site-icon.png" alt="Site icon" />
+            <img src="/assets/site-icon.png" alt="Site icon" />
             <div>
               <h3 className="text-2xl font-semibold">Frontend Developer</h3>
               <p className="text-2xl">
@@ -27,7 +27,7 @@ const About = () => {
             </div>
           </li>
           <li className="flex flex-row items-center rounded-[20px] px-0 py-6 md:p-6 about-gradient bg-no-repeat">
-            <img src="../../public/assets/cursor-icon.png" alt="Cursor icon" />
+            <img src="/assets/cursor-icon.png" alt="Cursor icon" />
             <div>
               <h3 className="text-2xl font-semibold">About Me</h3>
               <p className="text-2xl">

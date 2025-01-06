@@ -12,9 +12,7 @@ const Navbar = () => {
         <img
           className="block cursor-pointer md:hidden"
           src={
-            menuOpen
-              ? "../../public/assets/close-icon.png"
-              : "../../public/assets/hamburger-icon.png"
+            menuOpen ? "/assets/close-icon.png" : "/assets/hamburger-icon.png"
           }
           alt="hamburger-icon"
           onClick={() => setMenuOpen(!menuOpen)}
