@@ -20,7 +20,7 @@ const Hero = () => {
       <img
         src={HERO_IMG_URL}
         alt="Hero image of me"
-        className="w-1/2 z-1 heroImage-animation"
+        className="w-1/2 z-1 floating-animation"
       />
       <div className="topBlur" />
       <div className="bottomBlur" />

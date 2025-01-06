@@ -14,7 +14,7 @@
     scroll-behavior: smooth;
   }
 
-  .heroImage-animation {
+  .floating-animation {
     animation: floating 3s ease-in-out infinite;
   }
 

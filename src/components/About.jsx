@@ -13,7 +13,7 @@ const About = () => {
         <img
           src={ABOUT_IMG_URL}
           alt="Image of me"
-          className="w-[40%] hidden md:block"
+          className="w-[40%] hidden md:block floating-animation"
         />
         <ul className="text-colorText flex flex-col gap-12 mt-7 md:mt-0">
           <li className="flex flex-row items-center rounded-[20px] px-0 py-6 md:p-6 about-gradient bg-no-repeat">
