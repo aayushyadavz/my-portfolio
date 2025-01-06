@@ -1,5 +1,3 @@
-import { ABOUT_IMG_URL } from "../utils/constants";
-
 const About = () => {
   return (
     <section
@@ -10,26 +8,23 @@ const About = () => {
         About
       </h2>
       <div className="flex flex-col md:flex-row items-center">
-        <img
-          src={ABOUT_IMG_URL}
-          alt="Image of me"
-          className="w-[40%] hidden md:block floating-animation"
-        />
-        <ul className="text-colorText flex flex-col gap-12 mt-7 md:mt-0">
-          <li className="flex flex-row items-center rounded-[20px] px-0 py-6 md:p-6 about-gradient bg-no-repeat">
+        <ul className="text-colorText flex flex-col gap-9 mt-7 md:mt-5">
+          <li className="flex flex-row items-center rounded-[20px] px-0 py-6 md:p-6 about-gradient bg-no-repeat gap-2">
             <img src="/assets/site-icon.png" alt="Site icon" />
             <div>
-              <h3 className="text-2xl font-semibold">Frontend Developer</h3>
+              <h3 className="text-2xl font-semibold mb-1">
+                Frontend Developer
+              </h3>
               <p className="text-2xl">
                 I'm a frontend developer with experience in building responsive
                 and optimized sites.
               </p>
             </div>
           </li>
-          <li className="flex flex-row items-center rounded-[20px] px-0 py-6 md:p-6 about-gradient bg-no-repeat">
+          <li className="flex flex-row items-center rounded-[20px] px-0 py-6 md:p-6 about-gradient bg-no-repeat gap-2">
             <img src="/assets/cursor-icon.png" alt="Cursor icon" />
             <div>
-              <h3 className="text-2xl font-semibold">About Me</h3>
+              <h3 className="text-2xl font-semibold mb-1">About Me</h3>
               <p className="text-2xl">
                 I'm Ayush Yadav, a skilled Frontend Developer with over 1 year
                 of experience building modern, user-focused websites. My journey

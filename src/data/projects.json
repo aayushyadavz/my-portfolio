@@ -1,11 +1,11 @@
 [
     {
-      "title": "Project A",
-      "imageSrc": "../../assets/project.png",
+      "title": "Food Express",
+      "imageSrc": "https://res.cloudinary.com/di0brh0qd/image/upload/f_auto,q_auto/v1736184429/Screenshot_76_jwfmpo.png",
       "description": "This is a project made to learn the latest languages by building an app.",
-      "skills": ["React", "Express", "Node"],
-      "demo": "https://www.example.com",
-      "source": "https://www.github.com"
+      "skills": ["React", "Redux", "Jest", "Parcel"],
+      "demo": "https://food-express-react.netlify.app/",
+      "source": "https://github.com/aayushyadavz/Food-Express-React-App"
     },
     {
       "title": "Project B",

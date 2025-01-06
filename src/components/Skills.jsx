@@ -7,12 +7,12 @@ const Skills = () => {
       <h2 className="text-colorText text-4xl font-bold tracking-custom uppercase">
         Skills
       </h2>
-      <div className="flex flex-row md:flex-row mt-4 justify-center">
-        <div className="w-full md:w-2/3 flex flex-wrap gap-9">
+      <div className="flex flex-row md:flex-row mt-5 justify-center">
+        <div className="w-full md:w-5/6 flex flex-wrap justify-center gap-9">
           {skills.map((skill, id) => {
             return (
               <div key={id} className="flex flex-col items-center gap-3">
-                <div className="bg-colorSecondary rounded-full flex items-center justify-center w-[120px] h-[120px]">
+                <div className="bg-colorSecondary rounded-full flex items-center justify-center w-[120px] h-[120px] shadow-xl transition hover:scale-110 duration-150">
                   <img
                     className="w-[75px]"
                     src={LOGO_URL + skill.imageSrc}

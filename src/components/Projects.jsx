@@ -9,12 +9,12 @@ const Projects = () => {
           return (
             <div
               key={id}
-              className="flex flex-col rounded-xl shadow-lg py-4 px-6 max-w-[345px] project-gradient"
+              className="flex flex-col rounded-xl shadow-lg py-4 px-6 max-w-[345px] project-gradient transition hover:scale-105 duration-150"
             >
               <img
                 src={project.imageSrc}
                 alt={project.title}
-                className="mb-6"
+                className="mb-6 w-[297px] h-[199px] object-cover rounded-lg"
               />
               <h3 className="text-2xl font-bold">{project.title}</h3>
               <p className="mt-[6px] text-2xl font-normal">
@@ -33,13 +33,15 @@ const Projects = () => {
               <div className="w-full mt-6 flex justify-around">
                 <a
                   href={project.demo}
-                  className="text-colorText text-3xl font-light rounded-[100px] bg-colorPrimary py-[1px] px-5"
+                  className="text-colorText text-3xl font-light rounded-[100px] bg-colorPrimary py-[1px] px-5 shadow-xl"
+                  target="_blank"
                 >
                   Demo
                 </a>
                 <a
                   href={project.source}
-                  className="text-colorText text-3xl font-light rounded-[100px] bg-colorPrimary py-[1px] px-5"
+                  className="text-colorText text-3xl font-light rounded-[100px] bg-colorPrimary py-[1px] px-5 shadow-xl"
+                  target="_blank"
                 >
                   Source
                 </a>
