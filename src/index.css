@@ -76,6 +76,21 @@
     background: linear-gradient(180deg, #576cbc 0%, #132a53 100%);
   }
 
+  ::-webkit-scrollbar {
+    width: 4px;
+    height: 12px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: #19376d;
+    border-radius: 10px;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #576cbc;
+    border-radius: 10px;
+  }
+
   @media (max-width: 376px) {
     .myName {
       margin-left: 3%;
