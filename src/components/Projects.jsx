@@ -2,7 +2,10 @@ import projects from "../data/projects.json";
 
 const Projects = () => {
   return (
-    <section className="mt-[76px] text-colorText mx-[10%]" id="projects">
+    <section
+      className="mt-[76px] text-colorText mx-[5%] sm:mx-[10%]"
+      id="projects"
+    >
       <h2 className="text-4xl font-bold uppercase tracking-custom">Projects</h2>
       <div className="mt-9 flex flex-row flex-wrap items-center justify-center gap-4 w-full">
         {projects.map((project, id) => {

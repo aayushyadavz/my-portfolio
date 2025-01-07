@@ -2,11 +2,13 @@ const Contact = () => {
   return (
     <footer
       id="contact"
-      className="text-colorText mt-[120px] bg-colorSecondary flex flex-col md:flex-row justify-evenly w-screen py-14 px-[2%] sm:px-[10%] gap-8 md:gap-3"
+      className="text-colorText mt-[120px] bg-colorSecondary flex flex-col md:flex-row justify-evenly w-screen py-14 px-[5%] sm:px-[10%] gap-8 md:gap-3"
     >
       <div className="md:flex md:flex-col md:items-start">
-        <h2 className="text-7xl font-bold tracking-custom2">Contact</h2>
-        <p className="text-4xl font-normal tracking-custom3">
+        <h2 className="text-5xl sm:text-7xl font-bold tracking-custom2">
+          Contact
+        </h2>
+        <p className="text-2xl sm:text-4xl font-normal tracking-custom3">
           Feel free to reach out!
         </p>
       </div>
@@ -20,7 +22,7 @@ const Contact = () => {
           <a
             href="mailto:ayushyadav24nov1234@gmail.com"
             target="_blank"
-            className="text-colorText text-lg sm:text-2xl font-light tracking-custom4 underline"
+            className="text-colorText text-base sm:text-2xl font-light tracking-custom4 underline"
           >
             ayushyadav24nov1234@gmail.com
           </a>
@@ -34,7 +36,7 @@ const Contact = () => {
           <a
             href="https://www.linkedin.com/in/aayushyadavz/"
             target="_blank"
-            className="text-colorText text-lg sm:text-2xl font-light tracking-custom4 underline"
+            className="text-colorText text-base sm:text-2xl font-light tracking-custom4 underline"
           >
             linkedin.com/aayushyadavz
           </a>
@@ -48,7 +50,7 @@ const Contact = () => {
           <a
             href="https://github.com/aayushyadavz"
             target="_blank"
-            className="text-colorText text-lg sm:text-2xl font-light tracking-custom4 underline"
+            className="text-colorText text-base sm:text-2xl font-light tracking-custom4 underline"
           >
             github.com/aayushyadavz
           </a>

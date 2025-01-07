@@ -4,13 +4,16 @@ const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <nav className="relative flex flex-col md:flex-row items-start md:items-center justify-between pt-14 z-2 mx-[10%]">
-      <a className="text-3xl font-light text-colorText" href="/">
+    <nav className="relative flex flex-col md:flex-row items-start md:items-center justify-between pt-8 sm:pt-14 z-2 mx-[5%] sm:mx-[10%]">
+      <a
+        className="text-2xl sm:text-3xl font-light text-colorText myName"
+        href="/"
+      >
         Ayush Yadav
       </a>
-      <div className="flex absolute right-0 mr-[10%] md:mr-0 flex-col md:flex-row items-end md:items-center gap-3 md:gap-0 z-3">
+      <div className="flex absolute right-0 mr-[3%] sm:mr-[10%] md:mr-0 flex-col md:flex-row items-end md:items-center gap-3 md:gap-0 z-3">
         <img
-          className="block cursor-pointer md:hidden"
+          className="block cursor-pointer md:hidden hamburger"
           src={
             menuOpen ? "/assets/close-icon.png" : "/assets/hamburger-icon.png"
           }
