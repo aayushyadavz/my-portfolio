@@ -1,15 +1,21 @@
 const Contact = () => {
+  const currentYear = new Date().getFullYear();
   return (
     <footer
       id="contact"
       className="text-colorText mt-[120px] bg-colorSecondary flex flex-col md:flex-row justify-evenly w-screen py-14 px-[5%] sm:px-[10%] gap-8 md:gap-3"
     >
-      <div className="md:flex md:flex-col md:items-start">
-        <h2 className="text-5xl sm:text-7xl font-bold tracking-custom2">
-          Contact
-        </h2>
-        <p className="text-2xl sm:text-4xl font-normal tracking-custom3">
-          Feel free to reach out!
+      <div className="md:flex md:flex-col md:items-start justify-between">
+        <div>
+          <h2 className="text-5xl sm:text-7xl font-bold tracking-custom2">
+            Contact
+          </h2>
+          <p className="text-2xl sm:text-4xl font-normal tracking-custom3">
+            Feel free to reach out!
+          </p>
+        </div>
+        <p className="text-colorText text-base opacity-50 p-1 hidden md:flex">
+          © {currentYear} Ayush Yadav
         </p>
       </div>
       <ul className="flex flex-col items-start gap-3 md:gap-6">
