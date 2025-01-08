@@ -91,7 +91,7 @@
     border-radius: 10px;
   }
 
-  @media (max-width: 376px) {
+  @media (max-width: 411px) {
     .myName {
       margin-left: 3%;
     }
