@@ -14,6 +14,7 @@ export default {
       fontFamily: {
         outfit: ["Outfit", "sans-serif"],
         roboto: ["Roboto", "sans-serif"],
+        playwrite: ["Playwrite AU SA", "sans-serif"],
       },
       zIndex: {
         1: "1",

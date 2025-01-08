@@ -26,13 +26,17 @@ const About = () => {
             <div>
               <h3 className="text-2xl font-semibold mb-1">About Me</h3>
               <p className="text-lg sm:text-2xl">
-                I'm Ayush Yadav, a skilled Frontend Developer with over 1 year
-                of experience building modern, user-focused websites. My journey
-                began in March 2024 when I discovered my passion for creating
-                impactful digital experiences. Currently pursuing a BCA, I
-                specialize in crafting sleek designs and implementing seamless
-                functionalities to bring your vision to life. Let's create
-                exceptional solutions together!
+                I'm{" "}
+                <span className="font-playwrite sm:text-lg font-semibold">
+                  Ayush Yadav
+                </span>
+                , a skilled Frontend Developer with over 1 year of experience
+                building modern, user-focused websites. My journey began in
+                March 2024 when I discovered my passion for creating impactful
+                digital experiences. Currently pursuing a BCA, I specialize in
+                crafting sleek designs and implementing seamless functionalities
+                to bring your vision to life. Let's create exceptional solutions
+                together!
               </p>
             </div>
           </li>

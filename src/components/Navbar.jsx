@@ -6,7 +6,7 @@ const Navbar = () => {
   return (
     <nav className="relative flex flex-col md:flex-row items-start md:items-center justify-between pt-8 sm:pt-14 z-2 mx-[5%] sm:mx-[10%]">
       <a
-        className="text-2xl sm:text-3xl font-light text-colorText myName"
+        className="text-[26px] font-normal text-colorText myName font-playwrite"
         href="/"
       >
         Ayush Yadav
