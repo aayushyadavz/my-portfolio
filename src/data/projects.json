@@ -7,4 +7,12 @@
       "demo": "https://food-express-react.netlify.app/",
       "source": "https://github.com/aayushyadavz/Food-Express-React-App"
     }
+    {
+      "title": "Plan Your Trip",
+      "imageSrc": "https://res.cloudinary.com/dot81mqoh/image/upload/v1737620889/Hero_Image_blm8np.png",
+      "description": "It's an AI Trip Planner app made to create trip plans using AI.",
+      "skills": ["React", "Firebase", "Gemini AI"],
+      "demo": "http://plan-your-trip-three.vercel.app",
+      "source": "https://github.com/aayushyadavz/PlanYourTrip"
+    }
   ]
